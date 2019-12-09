@@ -1,20 +1,83 @@
 
-#submit {
-    width: 100px;
+.container {
+    font-family: 'ArialMT';
+    font-weight: 100;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    width: 75%;
+    float: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arial-BoldMT', sans-serif;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #000;
     text-align: center;
+}
+h1.intro {
+    float: center;
+    margin-top: 100px;
+    font-size: 75px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0px;
 }
 div.memes {
     display: flex;
     flex-wrap: wrap;
-    max-height: 50%;
+    max-height: 50%;  
 }
 .meme {
     position: relative;
-    max-width: 250px;
-    margin: 5 px;
+    max-width: 300px;
+    margin: 10px
 }
-img, img * {
+img {
     max-width: 100%;
     max-height: 100%;
+}
+.meme:hover  {
+    opacity: 0.5;
+}
 
+.textTop, .textBottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 1px 0px black;
+    font-family: "Helvetica";
+    text-align: center;
+    word-wrap: break-word;
+    color: white;
+  }
+.textTop {
+    top: 0;
+}
+.textBottom {
+    bottom: 4px; 
+}
+.submit {
+    background-color: black;
+    color: white;
+    width: 101%;
+    font-size: 16px;
+    border: none;
+    font-family: 'Arial-BoldMT', sans-serif;
+    margin-top: 10px;
+}
+input {
+    width: 100%;
+}
+div {
+    margin-top: 10px
+}
+.note {
+    text-align: center;
 }

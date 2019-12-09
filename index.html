@@ -9,26 +9,34 @@
 </head>
 <body>
     <header>
-        <h1>Meme Generator</h1>
+        <h1 class="intro">Meme Generator</h1>
     </header>
-    <div>
+    <div class ="container">
         <form action="#">
-            <p>
+            <div>
                 Image URL:
-                <input type="text">
-            </p>
+            </div>
+            <div>
+                <input type="text" placeholder= "Paste Image URL">
+            </div>
+            <div>
+                Top Text:
+            </div>
+             <div>
+                <input type="text" placeholder= "Enter text for top of meme">
+             </div>
+            <div>
+                Bottom Text:
+            </div>
+            <div>
+                <input type="text" placeholder="Enter text for bottom of meme">
+            </div>
             <p>
-                Text on top:
-                <input type="text">
+                <input type="submit" class = "submit" id="submit">
             </p>
-            <p>
-                Text on bottom:
-                <input type="text">
+            <p class = "note">
+                (Click on meme to remove it)
             </p>
-            <p>
-                <input type="submit" id="submit">
-            </p>
-            
         </form>
     </div>
     <div class= "memes"></divclass></div>
